@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="overflow-x-hidden ">
+    
+       <!-- section home start -->
+    <section id="home">
+        <div class="w-full relative h-screen">
+            <video class="w-full h-full absolute object-cover" class="background" width="1920" autoplay muted loop id="street">
+                <source class="vid" src="Cinematic Handheld Book B-Roll.mp4" type="video/mp4">
+              </video>
+            <div class="absolute top-0 left-0 w-full h-full bg-gray-900/30">
+                <div class="absolute w-full h-full justify-center text-center top-0 left-0 flex flex-col">
+                    <h1 class="text-white text-4xl font-bold mb-3 md:text-5xl">READBOOK</h1>
+                    <p class="text-white text-lg mb-3 md:text-2xl">Read the best books from all over the world</p>
+                    <div class="flex flex-row justify-center">
+                       <a href="#kk">
+                        <button
+  class="overflow-hidden relative w-32 p-2 h-12 bg-black text-white border-none rounded-md text-xl font-bold cursor-pointer relative z-10 group"
+>
+  Read now
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-sky-200 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-500 duration-1000 origin-right"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-sky-400 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-700 duration-700 origin-right"
+  ></span>
+  <span
+    class="absolute w-36 h-32 -top-8 -left-2 bg-sky-600 rotate-12 transform scale-x-0 group-hover:scale-x-100 transition-transform group-hover:duration-1000 duration-500 origin-right"
+  ></span>
+  <span
+    class="group-hover:opacity-100 group-hover:duration-1000 duration-100 opacity-0 absolute top-2.5 left-6 z-10"
+    >Explore!</span
+  >
+</button>
+
+                    </div>
+                       </a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- section home end -->
+
+    
+        <section id="kk" class="flex justify-center items-center bg-cover bg-no-repeat bg-fixed p-10">
+            <canvas class="h-full w-full fixed" id="canvas"></canvas>
+            <div class="grid grid-cols-12 gap-1 justify-center items-center bg-white rounded-xl" id="container">
+                <div class="flex col-span-10 col-start-2 flex-col gap-8 items-center">
+                    <img class="w-full" src="https://i.ibb.co/6yWsjb9/Cool-Kids-Brainstorming.png" alt="Vector">
+                    <div class="space-y-2 grid grid-cols-8">
+                        <h1 class="landing__title text-2xl font-bold text-center col-span-8">Find Your <span class="landing__title-span">Favourite</span> Stories Here</h1>
+                        <p class="landing__text text-xs text-center col-span-6 col-start-2">Join us and discover the best stories from great writers!</p>
+                    </div>
+                    <button class="landing__btn py-3 px-8 font-bold text-xs  rounded-xl max-w-max transition-all duration-300" type="button">Continue</button>
+                </div>
+            </div>
+       
+    </section>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>

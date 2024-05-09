@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@700&family=Quicksand&display=swap");
+
+html,
+body {
+	height: 100%;
+}
+
+#kk{
+	background-image: linear-gradient(to bottom, #4fa6fe, #1d5fda);
+}
+
+#container {
+	width: 300px;
+	max-width: 100%;
+	height: 520px;
+	box-shadow: 0 6px 30px rgba(0, 0, 0, 0.1);
+}
+
+.landing__title {
+	font-family: "nunito", sans-serif;
+	color: #001d53;
+}
+
+.landing__title-span {
+	color: #1d5fda;
+}
+
+.landing__text {
+	font-family: "Quicksand", sans-serif;
+	color: #787878;
+}
+
+.landing__btn {
+	font-family: "nunito", sans-serif;
+	background-color: #4fa6fe;
+	box-shadow: 0 4px 30px rgba(79, 166, 254, 0.1);
+    color: #000;
+}
+
+.landing__btn:hover {
+	background-color: #1186fe;
+    color: #fff;
+}
+
+#canvas {
+	z-index: -1;
+}
